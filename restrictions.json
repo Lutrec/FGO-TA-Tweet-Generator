@@ -1,0 +1,54 @@
+[
+    {
+        "en": "no CE on attacker",
+        "jp": "アタッカー礼装なし"
+    },
+    {
+        "en": "no CEs",
+        "jp": "全員礼装なし"
+    },
+    {
+        "en": "no dupes",
+        "jp": "W編成なし"
+    },
+    {
+        "en": "effectively flo",
+        "jp": "実質前衛のみ"
+    },
+    {
+        "en": "4* supports or lower",
+        "jp": "サポ星4以下"
+    },
+    {
+        "en": "3* supports or lower",
+        "jp": "サポ星3以下"
+    },
+    {
+        "en": "2* supports or lower",
+        "jp": "サポ星2以下"
+    },
+     {
+        "en": "1* supports only",
+        "jp": "サポ星1のみ"
+    },
+    {
+        "en": "NP only",
+        "jp": "宝具のみ"
+    },
+    {
+        "en": "cards only",
+        "jp": "宝具なし"
+    },
+    {
+        "en": "with choco",
+        "jp": "チョコあり"
+    },
+    {
+        "en": "without choco",
+        "jp": "チョコなし"
+    },
+    {
+        "en": "same class servants",
+        "jp": "クラス統一"
+    }
+]

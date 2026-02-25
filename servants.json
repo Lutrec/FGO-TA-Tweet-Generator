@@ -1,0 +1,2267 @@
+[
+    {
+        "id": 1,
+        "en": "Mash",
+        "jp": "マシュ"
+    },
+    {
+        "id": 2,
+        "en": "Altria",
+        "jp": "アルトリア"
+    },
+    {
+        "id": 3,
+        "en": "Altria (Alter)",
+        "jp": "アルトリア〔オルタ〕"
+    },
+    {
+        "id": 4,
+        "en": "Altria (Lily)",
+        "jp": "アルトリア〔リリィ〕"
+    },
+    {
+        "id": 5,
+        "en": "Nero",
+        "jp": "ネロ"
+    },
+    {
+        "id": 6,
+        "en": "Siegfried",
+        "jp": "ジークフリート"
+    },
+    {
+        "id": 7,
+        "en": "Caesar",
+        "jp": "カエサル"
+    },
+    {
+        "id": 8,
+        "en": "Altera",
+        "jp": "アルテラ"
+    },
+    {
+        "id": 9,
+        "en": "Gilles",
+        "jp": "ジル・ド・レェ"
+    },
+    {
+        "id": 10,
+        "en": "D'Eon",
+        "jp": "シュヴァリエ・デオン"
+    },
+    {
+        "id": 11,
+        "en": "Emiya",
+        "jp": "エミヤ"
+    },
+    {
+        "id": 12,
+        "en": "Gilgamesh",
+        "jp": "ギルガメッシュ"
+    },
+    {
+        "id": 13,
+        "en": "Robin Hood",
+        "jp": "ロビンフッド"
+    },
+    {
+        "id": 14,
+        "en": "Atalanta",
+        "jp": "アタランテ"
+    },
+    {
+        "id": 15,
+        "en": "Euryale",
+        "jp": "エウリュアレ"
+    },
+    {
+        "id": 16,
+        "en": "Arash",
+        "jp": "アーラシュ"
+    },
+    {
+        "id": 17,
+        "en": "Cú Chulainn",
+        "jp": "クー・フーリン"
+    },
+    {
+        "id": 18,
+        "en": "Elisabeth",
+        "jp": "エリザベート"
+    },
+    {
+        "id": 19,
+        "en": "Benkei",
+        "jp": "武蔵坊弁慶"
+    },
+    {
+        "id": 20,
+        "en": "Cú (Prototype)",
+        "jp": "クー〔プロトタイプ〕"
+    },
+    {
+        "id": 21,
+        "en": "Leonidas",
+        "jp": "レオニダス一世"
+    },
+    {
+        "id": 22,
+        "en": "Romulus",
+        "jp": "ロムルス"
+    },
+    {
+        "id": 23,
+        "en": "Medusa",
+        "jp": "メドゥーサ"
+    },
+    {
+        "id": 24,
+        "en": "Georgios",
+        "jp": "ゲオルギウス"
+    },
+    {
+        "id": 25,
+        "en": "Edward Teach",
+        "jp": "エドワード・ティーチ"
+    },
+    {
+        "id": 26,
+        "en": "Boudica",
+        "jp": "ブーディカ"
+    },
+    {
+        "id": 27,
+        "en": "Ushiwakamaru",
+        "jp": "牛若丸"
+    },
+    {
+        "id": 28,
+        "en": "Alexander",
+        "jp": "アレキサンダー"
+    },
+    {
+        "id": 29,
+        "en": "Marie Antoinette",
+        "jp": "マリー・アントワネット"
+    },
+    {
+        "id": 30,
+        "en": "Martha",
+        "jp": "マルタ"
+    },
+    {
+        "id": 31,
+        "en": "Medea",
+        "jp": "メディア"
+    },
+    {
+        "id": 32,
+        "en": "Gilles Caster",
+        "jp": "ジル〔キャスター〕"
+    },
+    {
+        "id": 33,
+        "en": "Hans",
+        "jp": "ハンス"
+    },
+    {
+        "id": 34,
+        "en": "Shakespeare",
+        "jp": "シェイクスピア"
+    },
+    {
+        "id": 35,
+        "en": "Mephistopheles",
+        "jp": "メフィストフェレス"
+    },
+    {
+        "id": 36,
+        "en": "Mozart",
+        "jp": "モーツァルト"
+    },
+    {
+        "id": 37,
+        "en": "Zhuge Liang",
+        "jp": "諸葛孔明〔エルメロイⅡ世〕"
+    },
+    {
+        "id": 38,
+        "en": "Cú Caster",
+        "jp": "クー〔キャスター〕"
+    },
+    {
+        "id": 39,
+        "en": "Kojirou",
+        "jp": "佐々木小次郎"
+    },
+    {
+        "id": 40,
+        "en": "Cursed Arm",
+        "jp": "呪腕のハサン"
+    },
+    {
+        "id": 41,
+        "en": "Stheno",
+        "jp": "ステンノ"
+    },
+    {
+        "id": 42,
+        "en": "Jing Ke",
+        "jp": "荊軻"
+    },
+    {
+        "id": 43,
+        "en": "Sanson",
+        "jp": "サンソン"
+    },
+    {
+        "id": 44,
+        "en": "Phantom",
+        "jp": "ファントム"
+    },
+    {
+        "id": 45,
+        "en": "Mata Hari",
+        "jp": "マタ・ハリ"
+    },
+    {
+        "id": 46,
+        "en": "Carmilla",
+        "jp": "カーミラ"
+    },
+    {
+        "id": 47,
+        "en": "Heracles",
+        "jp": "ヘラクレス"
+    },
+    {
+        "id": 48,
+        "en": "Lancelot",
+        "jp": "ランスロット"
+    },
+    {
+        "id": 49,
+        "en": "Lu Bu",
+        "jp": "呂布奉先"
+    },
+    {
+        "id": 50,
+        "en": "Spartacus",
+        "jp": "スパルタクス"
+    },
+    {
+        "id": 51,
+        "en": "Kintoki",
+        "jp": "坂田金時"
+    },
+    {
+        "id": 52,
+        "en": "Vlad III",
+        "jp": "ヴラド三世"
+    },
+    {
+        "id": 53,
+        "en": "Asterios",
+        "jp": "アステリオス"
+    },
+    {
+        "id": 54,
+        "en": "Caligula",
+        "jp": "カリギュラ"
+    },
+    {
+        "id": 55,
+        "en": "Darius III",
+        "jp": "ダレイオス三世"
+    },
+    {
+        "id": 56,
+        "en": "Kiyohime",
+        "jp": "清姫"
+    },
+    {
+        "id": 57,
+        "en": "Eric Bloodaxe",
+        "jp": "エイリーク・ブラッドアクス"
+    },
+    {
+        "id": 58,
+        "en": "Tamamo Cat",
+        "jp": "タマモキャット"
+    },
+    {
+        "id": 59,
+        "en": "Jeanne d'Arc",
+        "jp": "ジャンヌ・ダルク"
+    },
+    {
+        "id": 60,
+        "en": "Orion",
+        "jp": "オリオン"
+    },
+    {
+        "id": 61,
+        "en": "Elisabeth (Halloween)",
+        "jp": "エリザベート〔ハロウィン〕"
+    },
+    {
+        "id": 62,
+        "en": "Tamamo",
+        "jp": "玉藻の前"
+    },
+    {
+        "id": 63,
+        "en": "David",
+        "jp": "ダビデ"
+    },
+    {
+        "id": 64,
+        "en": "Hektor",
+        "jp": "ヘクトール"
+    },
+    {
+        "id": 65,
+        "en": "Drake",
+        "jp": "ドレイク"
+    },
+    {
+        "id": 66,
+        "en": "Anne & Mary",
+        "jp": "アン＆メアリー"
+    },
+    {
+        "id": 67,
+        "en": "Medea (Lily)",
+        "jp": "メディア〔リリィ〕"
+    },
+    {
+        "id": 68,
+        "en": "Okita",
+        "jp": "沖田総司"
+    },
+    {
+        "id": 69,
+        "en": "Nobunaga",
+        "jp": "織田信長"
+    },
+    {
+        "id": 70,
+        "en": "Scáthach",
+        "jp": "スカサハ"
+    },
+    {
+        "id": 71,
+        "en": "Diarmuid",
+        "jp": "ディルムッド"
+    },
+    {
+        "id": 72,
+        "en": "Fergus",
+        "jp": "フェルグス"
+    },
+    {
+        "id": 73,
+        "en": "Altria (Santa Alter)",
+        "jp": "アルトリア〔サンタオルタ〕"
+    },
+    {
+        "id": 74,
+        "en": "Nursery Rhyme",
+        "jp": "ナーサリー・ライム"
+    },
+    {
+        "id": 75,
+        "en": "Jack",
+        "jp": "ジャック"
+    },
+    {
+        "id": 76,
+        "en": "Mordred",
+        "jp": "モードレッド"
+    },
+    {
+        "id": 77,
+        "en": "Tesla",
+        "jp": "テスラ"
+    },
+    {
+        "id": 78,
+        "en": "Altria (Lancer Alter)",
+        "jp": "アルトリア〔ランサーオルタ〕"
+    },
+    {
+        "id": 79,
+        "en": "Paracelsus",
+        "jp": "パラケルスス"
+    },
+    {
+        "id": 80,
+        "en": "Babbage",
+        "jp": "バベッジ"
+    },
+    {
+        "id": 81,
+        "en": "Jekyll & Hyde",
+        "jp": "ジキル＆ハイド"
+    },
+    {
+        "id": 82,
+        "en": "Frankenstein",
+        "jp": "フランケンシュタイン"
+    },
+    {
+        "id": 84,
+        "en": "Arjuna",
+        "jp": "アルジュナ"
+    },
+    {
+        "id": 85,
+        "en": "Karna",
+        "jp": "カルナ"
+    },
+    {
+        "id": 86,
+        "en": "MHX",
+        "jp": "謎のヒロインX"
+    },
+    {
+        "id": 87,
+        "en": "Fionn",
+        "jp": "フィン"
+    },
+    {
+        "id": 88,
+        "en": "Brynhild",
+        "jp": "ブリュンヒルデ"
+    },
+    {
+        "id": 89,
+        "en": "Beowulf",
+        "jp": "ベオウルフ"
+    },
+    {
+        "id": 90,
+        "en": "Nero (Bride)",
+        "jp": "ネロ〔ブライド〕"
+    },
+    {
+        "id": 91,
+        "en": "Shiki (Saber)",
+        "jp": "両儀式〔セイバー〕"
+    },
+    {
+        "id": 92,
+        "en": "Shiki",
+        "jp": "両儀式"
+    },
+    {
+        "id": 93,
+        "en": "Amakusa",
+        "jp": "天草四郎"
+    },
+    {
+        "id": 94,
+        "en": "Astolfo",
+        "jp": "アストルフォ"
+    },
+    {
+        "id": 95,
+        "en": "Kid Gil",
+        "jp": "子ギル"
+    },
+    {
+        "id": 96,
+        "en": "Dantès",
+        "jp": "巌窟王"
+    },
+    {
+        "id": 97,
+        "en": "Nightingale",
+        "jp": "ナイチンゲール"
+    },
+    {
+        "id": 98,
+        "en": "Cú (Alter)",
+        "jp": "クー〔オルタ〕"
+    },
+    {
+        "id": 99,
+        "en": "Medb",
+        "jp": "女王メイヴ"
+    },
+    {
+        "id": 100,
+        "en": "Helena",
+        "jp": "エレナ"
+    },
+    {
+        "id": 101,
+        "en": "Rama",
+        "jp": "ラーマ"
+    },
+    {
+        "id": 102,
+        "en": "Li Shuwen",
+        "jp": "李書文"
+    },
+    {
+        "id": 103,
+        "en": "Edison",
+        "jp": "エジソン"
+    },
+    {
+        "id": 104,
+        "en": "Geronimo",
+        "jp": "ジェロニモ"
+    },
+    {
+        "id": 105,
+        "en": "Billy the Kid",
+        "jp": "ビリー・ザ・キッド"
+    },
+    {
+        "id": 106,
+        "en": "Jeanne (Alter)",
+        "jp": "ジャンヌ〔オルタ〕"
+    },
+    {
+        "id": 107,
+        "en": "Aŋra Mainiiu",
+        "jp": "アンリマユ"
+    },
+    {
+        "id": 108,
+        "en": "Iskandar",
+        "jp": "イスカンダル"
+    },
+    {
+        "id": 109,
+        "en": "Emiya (Assassin)",
+        "jp": "エミヤ〔アサシン〕"
+    },
+    {
+        "id": 110,
+        "en": "Hundred Personas",
+        "jp": "百貌のハサン"
+    },
+    {
+        "id": 111,
+        "en": "Irisviel",
+        "jp": "アイリスフィール"
+    },
+    {
+        "id": 112,
+        "en": "Shuten",
+        "jp": "酒呑童子"
+    },
+    {
+        "id": 113,
+        "en": "Sanzang",
+        "jp": "玄奘三蔵"
+    },
+    {
+        "id": 114,
+        "en": "Raikou",
+        "jp": "源頼光"
+    },
+    {
+        "id": 115,
+        "en": "Rintoki",
+        "jp": "坂田金時"
+    },
+    {
+        "id": 116,
+        "en": "Ibaraki",
+        "jp": "茨木童子"
+    },
+    {
+        "id": 117,
+        "en": "Kotarou",
+        "jp": "風魔小太郎"
+    },
+    {
+        "id": 118,
+        "en": "Ozymandias",
+        "jp": "オジマンディアス"
+    },
+    {
+        "id": 119,
+        "en": "Altria (Lancer)",
+        "jp": "アルトリア〔ランサー〕"
+    },
+    {
+        "id": 120,
+        "en": "Nitocris",
+        "jp": "ニトクリス"
+    },
+    {
+        "id": 121,
+        "en": "Saberlot",
+        "jp": "ランスロット〔セイバー〕"
+    },
+    {
+        "id": 122,
+        "en": "Tristan",
+        "jp": "トリスタン"
+    },
+    {
+        "id": 123,
+        "en": "Gawain",
+        "jp": "ガウェイン"
+    },
+    {
+        "id": 124,
+        "en": "Serenity",
+        "jp": "静謐のハサン"
+    },
+    {
+        "id": 125,
+        "en": "Touta",
+        "jp": "俵藤太"
+    },
+    {
+        "id": 126,
+        "en": "Bedivere",
+        "jp": "ベディヴィエール"
+    },
+    {
+        "id": 127,
+        "en": "Da Vinci",
+        "jp": "ダ・ヴィンチ"
+    },
+    {
+        "id": 128,
+        "en": "Tamalancer",
+        "jp": "水着玉藻の前"
+    },
+    {
+        "id": 129,
+        "en": "Summer Altria",
+        "jp": "水着アルトリア"
+    },
+    {
+        "id": 130,
+        "en": "Summer Marie",
+        "jp": "水着マリー"
+    },
+    {
+        "id": 131,
+        "en": "Summer Anne & Mary",
+        "jp": "水着アン＆メアリー"
+    },
+    {
+        "id": 132,
+        "en": "Summer Mordred",
+        "jp": "水着モードレッド"
+    },
+    {
+        "id": 133,
+        "en": "Summer Scáthach",
+        "jp": "水着スカサハ"
+    },
+    {
+        "id": 134,
+        "en": "Summer Kiyohime",
+        "jp": "水着清姫"
+    },
+    {
+        "id": 135,
+        "en": "Summer Martha",
+        "jp": "水着マルタ"
+    },
+    {
+        "id": 136,
+        "en": "Illyasviel",
+        "jp": "イリヤスフィール"
+    },
+    {
+        "id": 137,
+        "en": "Chloe",
+        "jp": "クロエ・フォン・アインツベルン"
+    },
+    {
+        "id": 138,
+        "en": "Elisabeth (Brave)",
+        "jp": "エリザベート〔ブレイブ〕"
+    },
+    {
+        "id": 139,
+        "en": "Cleopatra",
+        "jp": "クレオパトラ"
+    },
+    {
+        "id": 140,
+        "en": "Vlad III (EXTRA)",
+        "jp": "ヴラド三世〔EXTRA〕"
+    },
+    {
+        "id": 141,
+        "en": "Jeanne d'Arc Alter Santa Lily",
+        "jp": "ジャンヌ・ダルク・オルタ・サンタ・リリィ"
+    },
+    {
+        "id": 142,
+        "en": "Ishtar",
+        "jp": "イシュタル"
+    },
+    {
+        "id": 143,
+        "en": "Enkidu",
+        "jp": "エルキドゥ"
+    },
+    {
+        "id": 144,
+        "en": "Quetzalcoatl",
+        "jp": "ケツァル・コアトル"
+    },
+    {
+        "id": 145,
+        "en": "Gilgamesh (Caster)",
+        "jp": "ギルガメッシュ〔キャスター〕"
+    },
+    {
+        "id": 146,
+        "en": "Medusa (Lancer)",
+        "jp": "メドゥーサ〔ランサー〕"
+    },
+    {
+        "id": 147,
+        "en": "Gorgon",
+        "jp": "ゴルゴーン"
+    },
+    {
+        "id": 148,
+        "en": "Jaguar Warrior",
+        "jp": "ジャガーマン"
+    },
+    {
+        "id": 150,
+        "en": "Merlin",
+        "jp": "マーリン"
+    },
+    {
+        "id": 153,
+        "en": "Musashi",
+        "jp": "宮本武蔵"
+    },
+    {
+        "id": 154,
+        "en": "\"First Hassan\"",
+        "jp": "“山の翁”"
+    },
+    {
+        "id": 155,
+        "en": "MHXA",
+        "jp": "謎のヒロインX〔オルタ〕"
+    },
+    {
+        "id": 156,
+        "en": "Moriarty",
+        "jp": "ジェームズ・モリアーティ"
+    },
+    {
+        "id": 157,
+        "en": "Emiya (Alter)",
+        "jp": "エミヤ〔オルタ〕"
+    },
+    {
+        "id": 158,
+        "en": "Hessian Lobo",
+        "jp": "ヘシアン・ロボ"
+    },
+    {
+        "id": 159,
+        "en": "Yan Qing",
+        "jp": "燕青"
+    },
+    {
+        "id": 160,
+        "en": "Arthur (Prototype)",
+        "jp": "アーサー〔プロトタイプ〕"
+    },
+    {
+        "id": 161,
+        "en": "Hijikata",
+        "jp": "土方歳三"
+    },
+    {
+        "id": 162,
+        "en": "Chacha",
+        "jp": "茶々"
+    },
+    {
+        "id": 163,
+        "en": "Meltryllis",
+        "jp": "メルトリリス"
+    },
+    {
+        "id": 164,
+        "en": "Passionlip",
+        "jp": "パッションリップ"
+    },
+    {
+        "id": 165,
+        "en": "Suzuka Gozen",
+        "jp": "鈴鹿御前"
+    },
+    {
+        "id": 166,
+        "en": "BB",
+        "jp": "ＢＢ"
+    },
+    {
+        "id": 167,
+        "en": "Kiara",
+        "jp": "殺生院キアラ"
+    },
+    {
+        "id": 169,
+        "en": "Scheherazade",
+        "jp": "シェヘラザード"
+    },
+    {
+        "id": 170,
+        "en": "Wu Zetian",
+        "jp": "武則天"
+    },
+    {
+        "id": 171,
+        "en": "Penthesilea",
+        "jp": "ペンテシレイア"
+    },
+    {
+        "id": 172,
+        "en": "Columbus",
+        "jp": "クリストファー・コロンブス"
+    },
+    {
+        "id": 173,
+        "en": "Holmes",
+        "jp": "シャーロック・ホームズ"
+    },
+    {
+        "id": 174,
+        "en": "Bunyan",
+        "jp": "ポール・バニヤン"
+    },
+    {
+        "id": 175,
+        "en": "Nero Caster",
+        "jp": "水着ネロ"
+    },
+    {
+        "id": 176,
+        "en": "Summer Fran",
+        "jp": "水着フランケンシュタイン"
+    },
+    {
+        "id": 177,
+        "en": "Summer Nitocris",
+        "jp": "水着ニトクリス"
+    },
+    {
+        "id": 178,
+        "en": "Summer Nobunaga",
+        "jp": "水着織田信長"
+    },
+    {
+        "id": 179,
+        "en": "Summer Altria (Alter)",
+        "jp": "水着アルトリア〔オルタ〕"
+    },
+    {
+        "id": 180,
+        "en": "Summer Helena",
+        "jp": "水着エレナ"
+    },
+    {
+        "id": 181,
+        "en": "Summer Raikou",
+        "jp": "水着源頼光"
+    },
+    {
+        "id": 182,
+        "en": "Summer Ishtar",
+        "jp": "水着イシュタル"
+    },
+    {
+        "id": 183,
+        "en": "Pārvatī",
+        "jp": "パールヴァティー"
+    },
+    {
+        "id": 184,
+        "en": "Tomoe Gozen",
+        "jp": "巴御前"
+    },
+    {
+        "id": 185,
+        "en": "Chiyome",
+        "jp": "望月千代女"
+    },
+    {
+        "id": 186,
+        "en": "Inshun",
+        "jp": "宝蔵院胤舜"
+    },
+    {
+        "id": 187,
+        "en": "Yagyu",
+        "jp": "柳生但馬守宗矩"
+    },
+    {
+        "id": 188,
+        "en": "Katou Danzo",
+        "jp": "加藤段蔵"
+    },
+    {
+        "id": 189,
+        "en": "Osakabehime",
+        "jp": "刑部姫"
+    },
+    {
+        "id": 190,
+        "en": "Mecha Eli-chan",
+        "jp": "メカエリチャン"
+    },
+    {
+        "id": 191,
+        "en": "Mecha Eli-chan Mk.II",
+        "jp": "メカエリチャンⅡ号機"
+    },
+    {
+        "id": 192,
+        "en": "Circe",
+        "jp": "キルケー"
+    },
+    {
+        "id": 193,
+        "en": "Nezha",
+        "jp": "哪吒"
+    },
+    {
+        "id": 194,
+        "en": "Queen of Sheba",
+        "jp": "シバの女王"
+    },
+    {
+        "id": 195,
+        "en": "Abigail",
+        "jp": "アビゲイル・ウィリアムズ"
+    },
+    {
+        "id": 196,
+        "en": "Ereshkigal",
+        "jp": "エレシュキガル"
+    },
+    {
+        "id": 197,
+        "en": "Attila the San(ta)",
+        "jp": "アルテラ・ザ・サン〔タ〕"
+    },
+    {
+        "id": 198,
+        "en": "Hokusai",
+        "jp": "葛飾北斎"
+    },
+    {
+        "id": 199,
+        "en": "Semiramis",
+        "jp": "セミラミス"
+    },
+    {
+        "id": 200,
+        "en": "Fujino",
+        "jp": "浅上藤乃"
+    },
+    {
+        "id": 201,
+        "en": "Anastasia",
+        "jp": "アナスタシア"
+    },
+    {
+        "id": 202,
+        "en": "Atalanta (Alter)",
+        "jp": "アタランテ〔オルタ〕"
+    },
+    {
+        "id": 203,
+        "en": "Avicebron",
+        "jp": "アヴィケブロン"
+    },
+    {
+        "id": 204,
+        "en": "Salieri",
+        "jp": "サリエリ"
+    },
+    {
+        "id": 205,
+        "en": "Ivan",
+        "jp": "イヴァン雷帝"
+    },
+    {
+        "id": 206,
+        "en": "Achilles",
+        "jp": "アキレウス"
+    },
+    {
+        "id": 207,
+        "en": "Chiron",
+        "jp": "ケイローン"
+    },
+    {
+        "id": 208,
+        "en": "Sieg",
+        "jp": "ジーク"
+    },
+    {
+        "id": 209,
+        "en": "Okita (Alter)",
+        "jp": "沖田総司〔オルタ〕"
+    },
+    {
+        "id": 210,
+        "en": "Izo",
+        "jp": "岡田以蔵"
+    },
+    {
+        "id": 211,
+        "en": "Ryouma",
+        "jp": "坂本龍馬"
+    },
+    {
+        "id": 212,
+        "en": "Napoleon",
+        "jp": "ナポレオン"
+    },
+    {
+        "id": 213,
+        "en": "Sigurd",
+        "jp": "シグルド"
+    },
+    {
+        "id": 214,
+        "en": "Valkyrie",
+        "jp": "ワルキューレ"
+    },
+    {
+        "id": 215,
+        "en": "Skadi",
+        "jp": "スカサハ＝スカディ"
+    },
+    {
+        "id": 216,
+        "en": "Summer Jeanne",
+        "jp": "水着ジャンヌ"
+    },
+    {
+        "id": 217,
+        "en": "Summer Ibaraki",
+        "jp": "水着茨木童子"
+    },
+    {
+        "id": 218,
+        "en": "Summer Ushiwakamaru",
+        "jp": "水着牛若丸"
+    },
+    {
+        "id": 219,
+        "en": "Summer Jeanne (Alter)",
+        "jp": "水着ジャンヌ〔オルタ〕"
+    },
+    {
+        "id": 220,
+        "en": "Summer BB",
+        "jp": "水着ＢＢ"
+    },
+    {
+        "id": 221,
+        "en": "Summer Medb",
+        "jp": "水着女王メイヴ"
+    },
+    {
+        "id": 222,
+        "en": "MHXX",
+        "jp": "謎のヒロインXX"
+    },
+    {
+        "id": 223,
+        "en": "Diarmuid (Saber)",
+        "jp": "ディルムッド〔セイバー〕"
+    },
+    {
+        "id": 224,
+        "en": "Sitonai",
+        "jp": "シトナイ"
+    },
+    {
+        "id": 225,
+        "en": "Shuten (Caster)",
+        "jp": "酒呑童子〔キャスター〕"
+    },
+    {
+        "id": 226,
+        "en": "Xiang Yu",
+        "jp": "項羽"
+    },
+    {
+        "id": 227,
+        "en": "Lan Ling",
+        "jp": "蘭陵王"
+    },
+    {
+        "id": 228,
+        "en": "Qin Liangyu",
+        "jp": "秦良玉"
+    },
+    {
+        "id": 229,
+        "en": "Qin Shi Huang",
+        "jp": "始皇帝"
+    },
+    {
+        "id": 230,
+        "en": "Yu Mei-ren",
+        "jp": "虞美人"
+    },
+    {
+        "id": 231,
+        "en": "Red Hare",
+        "jp": "赤兎馬"
+    },
+    {
+        "id": 232,
+        "en": "Bradamante",
+        "jp": "ブラダマンテ"
+    },
+    {
+        "id": 233,
+        "en": "Quetzalcoatl (Samba/Santa)",
+        "jp": "ケツァル・コアトル〔サンバ／サンタ〕"
+    },
+    {
+        "id": 234,
+        "en": "Beni-Enma",
+        "jp": "紅閻魔"
+    },
+    {
+        "id": 235,
+        "en": "Old Li",
+        "jp": "李書文"
+    },
+    {
+        "id": 236,
+        "en": "Miyu",
+        "jp": "美遊・エーデルフェルト"
+    },
+    {
+        "id": 237,
+        "en": "Murasaki",
+        "jp": "紫式部"
+    },
+    {
+        "id": 238,
+        "en": "Kingprotea",
+        "jp": "キングプロテア"
+    },
+    {
+        "id": 239,
+        "en": "Kama",
+        "jp": "カーマ"
+    },
+    {
+        "id": 241,
+        "en": "Sima Yi (Reines)",
+        "jp": "司馬懿〔ライネス〕"
+    },
+    {
+        "id": 242,
+        "en": "Astraea",
+        "jp": "アストライア"
+    },
+    {
+        "id": 243,
+        "en": "Gray",
+        "jp": "グレイ"
+    },
+    {
+        "id": 244,
+        "en": "Jinako",
+        "jp": "大いなる石像神"
+    },
+    {
+        "id": 245,
+        "en": "Lakshmi Bai",
+        "jp": "ラクシュミー・バーイー"
+    },
+    {
+        "id": 246,
+        "en": "William Tell",
+        "jp": "ウィリアム・テル"
+    },
+    {
+        "id": 247,
+        "en": "Arjuna (Alter)",
+        "jp": "アルジュナ〔オルタ〕"
+    },
+    {
+        "id": 248,
+        "en": "Aśvatthāman",
+        "jp": "アシュヴァッターマン"
+    },
+    {
+        "id": 249,
+        "en": "Asclepius",
+        "jp": "アスクレピオス"
+    },
+    {
+        "id": 250,
+        "en": "Nobunaga (Avenger)",
+        "jp": "織田信長〔アベンジャー〕"
+    },
+    {
+        "id": 251,
+        "en": "Mori",
+        "jp": "森長可"
+    },
+    {
+        "id": 252,
+        "en": "Kagetora",
+        "jp": "長尾景虎"
+    },
+    {
+        "id": 253,
+        "en": "Da Vinci (Rider)",
+        "jp": "ダ・ヴィンチ〔ライダー〕"
+    },
+    {
+        "id": 254,
+        "en": "Jason",
+        "jp": "イアソン"
+    },
+    {
+        "id": 255,
+        "en": "Paris",
+        "jp": "パリス"
+    },
+    {
+        "id": 256,
+        "en": "Gareth",
+        "jp": "ガレス"
+    },
+    {
+        "id": 257,
+        "en": "Bartholomew",
+        "jp": "バーソロミュー・ロバーツ"
+    },
+    {
+        "id": 258,
+        "en": "Gong",
+        "jp": "陳宮"
+    },
+    {
+        "id": 259,
+        "en": "Charlotte",
+        "jp": "シャルロット"
+    },
+    {
+        "id": 260,
+        "en": "Salome",
+        "jp": "サロメ"
+    },
+    {
+        "id": 261,
+        "en": "Summer Musashi",
+        "jp": "水着宮本武蔵"
+    },
+    {
+        "id": 262,
+        "en": "Summer Osakabehime",
+        "jp": "水着刑部姫"
+    },
+    {
+        "id": 263,
+        "en": "Summer Carmilla",
+        "jp": "水着カーミラ"
+    },
+    {
+        "id": 264,
+        "en": "Summer Hokusai",
+        "jp": "水着葛飾北斎"
+    },
+    {
+        "id": 265,
+        "en": "Summer Altria (Lancer)",
+        "jp": "水着アルトリア〔ランサー〕"
+    },
+    {
+        "id": 266,
+        "en": "Summer Meltryllis",
+        "jp": "謎のアルターエゴ・Λ"
+    },
+    {
+        "id": 267,
+        "en": "Summer Okita",
+        "jp": "オキタ・Ｊ・ソウジ"
+    },
+    {
+        "id": 268,
+        "en": "Astarte",
+        "jp": "スペース・イシュタル"
+    },
+    {
+        "id": 269,
+        "en": "Calamity Jane",
+        "jp": "カラミティ・ジェーン"
+    },
+    {
+        "id": 270,
+        "en": "Astolfo (Saber)",
+        "jp": "アストルフォ〔セイバー〕"
+    },
+    {
+        "id": 271,
+        "en": "Nightingale (Santa)",
+        "jp": "ナイチンゲール〔サンタ〕"
+    },
+    {
+        "id": 272,
+        "en": "Super Orion",
+        "jp": "超人オリオン"
+    },
+    {
+        "id": 273,
+        "en": "Mandricardo",
+        "jp": "マンドリカルド"
+    },
+    {
+        "id": 274,
+        "en": "Europa",
+        "jp": "エウロペ"
+    },
+    {
+        "id": 275,
+        "en": "Yang Guifei",
+        "jp": "楊貴妃"
+    },
+    {
+        "id": 276,
+        "en": "Sei Shounagon",
+        "jp": "清少納言"
+    },
+    {
+        "id": 277,
+        "en": "Odysseus",
+        "jp": "オデュッセウス"
+    },
+    {
+        "id": 278,
+        "en": "Dioscuri",
+        "jp": "ディオスクロイ"
+    },
+    {
+        "id": 279,
+        "en": "Caenis",
+        "jp": "カイニス"
+    },
+    {
+        "id": 280,
+        "en": "Romulus=Quirinus",
+        "jp": "ロムルス＝クィリヌス"
+    },
+    {
+        "id": 281,
+        "en": "Voyager",
+        "jp": "ボイジャー"
+    },
+    {
+        "id": 282,
+        "en": "Kijyo Koyo",
+        "jp": "鬼女紅葉"
+    },
+    {
+        "id": 283,
+        "en": "Erice",
+        "jp": "宇津見エリセ"
+    },
+    {
+        "id": 284,
+        "en": "Altria Caster",
+        "jp": "アルトリア・キャスター"
+    },
+    {
+        "id": 285,
+        "en": "Summer Kiara",
+        "jp": "水着殺生院キアラ"
+    },
+    {
+        "id": 286,
+        "en": "Summer Illyasviel",
+        "jp": "水着イリヤスフィール"
+    },
+    {
+        "id": 287,
+        "en": "Summer Brynhild",
+        "jp": "水着ブリュンヒルデ"
+    },
+    {
+        "id": 288,
+        "en": "Summer Yu Mei-ren",
+        "jp": "水着虞美人"
+    },
+    {
+        "id": 289,
+        "en": "Summer Abigail",
+        "jp": "水着アビゲイル"
+    },
+    {
+        "id": 290,
+        "en": "Summer Tomoe",
+        "jp": "水着巴御前"
+    },
+    {
+        "id": 291,
+        "en": "Summer Murasaki",
+        "jp": "水着紫式部"
+    },
+    {
+        "id": 292,
+        "en": "Himiko",
+        "jp": "卑弥呼"
+    },
+    {
+        "id": 293,
+        "en": "Saito",
+        "jp": "斎藤一"
+    },
+    {
+        "id": 294,
+        "en": "Nobukatsu",
+        "jp": "織田信勝"
+    },
+    {
+        "id": 295,
+        "en": "Van Gogh",
+        "jp": "ヴァン・ゴッホ"
+    },
+    {
+        "id": 296,
+        "en": "Nemo",
+        "jp": "ネモ"
+    },
+    {
+        "id": 297,
+        "en": "Douman",
+        "jp": "蘆屋道満"
+    },
+    {
+        "id": 298,
+        "en": "Watanabe-no-Tsuna",
+        "jp": "渡辺綱"
+    },
+    {
+        "id": 299,
+        "en": "Ibuki",
+        "jp": "伊吹童子"
+    },
+    {
+        "id": 300,
+        "en": "Vritra",
+        "jp": "ヴリトラ"
+    },
+    {
+        "id": 301,
+        "en": "Karna (Santa)",
+        "jp": "カルナ〔サンタ〕"
+    },
+    {
+        "id": 302,
+        "en": "Muramasa",
+        "jp": "千子村正"
+    },
+    {
+        "id": 303,
+        "en": "Taira",
+        "jp": "平景清"
+    },
+    {
+        "id": 304,
+        "en": "Kiichi Hogen",
+        "jp": "鬼一法眼"
+    },
+    {
+        "id": 305,
+        "en": "Amor (Caren)",
+        "jp": "アムール〔カレン〕"
+    },
+    {
+        "id": 306,
+        "en": "Galatea",
+        "jp": "ガラテア"
+    },
+    {
+        "id": 307,
+        "en": "Miss Crane",
+        "jp": "ミス・クレーン"
+    },
+    {
+        "id": 308,
+        "en": "MIXA",
+        "jp": "謎のアイドルX〔オルタ〕"
+    },
+    {
+        "id": 309,
+        "en": "Morgan",
+        "jp": "モルガン"
+    },
+    {
+        "id": 310,
+        "en": "Barghest",
+        "jp": "バーゲスト"
+    },
+    {
+        "id": 311,
+        "en": "Baobhan Sith",
+        "jp": "バーヴァン・シー"
+    },
+    {
+        "id": 312,
+        "en": "Mélusine",
+        "jp": "メリュジーヌ"
+    },
+    {
+        "id": 313,
+        "en": "Percival",
+        "jp": "パーシヴァル"
+    },
+    {
+        "id": 314,
+        "en": "Koyanskaya of Light",
+        "jp": "光のコヤンスカヤ"
+    },
+    {
+        "id": 315,
+        "en": "Habetrot",
+        "jp": "ハベトロット"
+    },
+    {
+        "id": 316,
+        "en": "Oberon",
+        "jp": "オベロン"
+    },
+    {
+        "id": 317,
+        "en": "Summer Okita (Alter)",
+        "jp": "水着沖田総司〔オルタ〕"
+    },
+    {
+        "id": 318,
+        "en": "Summer Anastasia",
+        "jp": "水着アナスタシア"
+    },
+    {
+        "id": 319,
+        "en": "Summer Charlotte",
+        "jp": "水着シャルロット"
+    },
+    {
+        "id": 320,
+        "en": "Da Vinci Ruler",
+        "jp": "水着ダ・ヴィンチ"
+    },
+    {
+        "id": 321,
+        "en": "Summer Kama",
+        "jp": "水着カーマ"
+    },
+    {
+        "id": 322,
+        "en": "Summer Caenis",
+        "jp": "水着カイニス"
+    },
+    {
+        "id": 323,
+        "en": "Summer Sei",
+        "jp": "水着清少納言"
+    },
+    {
+        "id": 324,
+        "en": "Molay",
+        "jp": "モレー"
+    },
+    {
+        "id": 325,
+        "en": "Zenobia",
+        "jp": "ゼノビア"
+    },
+    {
+        "id": 326,
+        "en": "Elisabeth (Cinderella)",
+        "jp": "エリザベート〔シンデレラ〕"
+    },
+    {
+        "id": 327,
+        "en": "Okuni",
+        "jp": "出雲阿国"
+    },
+    {
+        "id": 328,
+        "en": "Mysterious Ranmaru X",
+        "jp": "謎の蘭丸X"
+    },
+    {
+        "id": 329,
+        "en": "Ryouma (Lancer)",
+        "jp": "坂本龍馬〔ランサー〕"
+    },
+    {
+        "id": 330,
+        "en": "Martha (Santa)",
+        "jp": "マルタ〔サンタ〕"
+    },
+    {
+        "id": 331,
+        "en": "Taigong Wang",
+        "jp": "太公望"
+    },
+    {
+        "id": 332,
+        "en": "Dobrynya",
+        "jp": "ドブルイニャ"
+    },
+    {
+        "id": 334,
+        "en": "Koyanskaya of Dark",
+        "jp": "闇のコヤンスカヤ"
+    },
+    {
+        "id": 335,
+        "en": "Hephaestíon",
+        "jp": "ヘファイスティオン"
+    },
+    {
+        "id": 336,
+        "en": "Bazett",
+        "jp": "バゼット"
+    },
+    {
+        "id": 337,
+        "en": "Hai Bà Trưng",
+        "jp": "徴姉妹"
+    },
+    {
+        "id": 338,
+        "en": "Taisui",
+        "jp": "太歳星君"
+    },
+    {
+        "id": 339,
+        "en": "Super Bunyan",
+        "jp": "スーパーバニヤン"
+    },
+    {
+        "id": 340,
+        "en": "Daikokuten",
+        "jp": "大黒天"
+    },
+    {
+        "id": 341,
+        "en": "Mary Anning",
+        "jp": "メアリー・アニング"
+    },
+    {
+        "id": 342,
+        "en": "Constantine",
+        "jp": "コンスタンティノス11世"
+    },
+    {
+        "id": 343,
+        "en": "Charlemagne",
+        "jp": "シャルルマーニュ"
+    },
+    {
+        "id": 344,
+        "en": "Roland",
+        "jp": "ローラン"
+    },
+    {
+        "id": 345,
+        "en": "Kriemhild",
+        "jp": "クリームヒルト"
+    },
+    {
+        "id": 346,
+        "en": "Moriarty (Ruler)",
+        "jp": "モリアーティ〔ルーラー〕"
+    },
+    {
+        "id": 347,
+        "en": "Don Quixote",
+        "jp": "ドン・キホーテ"
+    },
+    {
+        "id": 348,
+        "en": "Zhang Jue",
+        "jp": "張角"
+    },
+    {
+        "id": 349,
+        "en": "Bakin",
+        "jp": "曲亭馬琴"
+    },
+    {
+        "id": 350,
+        "en": "Tametomo",
+        "jp": "源為朝"
+    },
+    {
+        "id": 351,
+        "en": "Archetype: Earth",
+        "jp": "アーキタイプ：アース"
+    },
+    {
+        "id": 352,
+        "en": "Xu Fu",
+        "jp": "徐福"
+    },
+    {
+        "id": 353,
+        "en": "Lady Avalon",
+        "jp": "レディ・アヴァロン"
+    },
+    {
+        "id": 354,
+        "en": "Summer Gareth",
+        "jp": "水着ガレス"
+    },
+    {
+        "id": 355,
+        "en": "Summer Ibuki",
+        "jp": "水着伊吹童子"
+    },
+    {
+        "id": 356,
+        "en": "Summer Erice",
+        "jp": "水着宇津見エリセ"
+    },
+    {
+        "id": 357,
+        "en": "Summer Skadi",
+        "jp": "水着スカディ"
+    },
+    {
+        "id": 358,
+        "en": "Summer Wu",
+        "jp": "水着武則天"
+    },
+    {
+        "id": 359,
+        "en": "Thrúd",
+        "jp": "スルーズ"
+    },
+    {
+        "id": 360,
+        "en": "Hildr",
+        "jp": "ヒルド"
+    },
+    {
+        "id": 361,
+        "en": "Ortlinde",
+        "jp": "オルトリンデ"
+    },
+    {
+        "id": 362,
+        "en": "Rikyu",
+        "jp": "千利休"
+    },
+    {
+        "id": 363,
+        "en": "Yamanami",
+        "jp": "山南敬助"
+    },
+    {
+        "id": 364,
+        "en": "Iyo",
+        "jp": "壱与"
+    },
+    {
+        "id": 365,
+        "en": "Huyan",
+        "jp": "呼延灼"
+    },
+    {
+        "id": 366,
+        "en": "Huang Feihu",
+        "jp": "黄飛虎"
+    },
+    {
+        "id": 367,
+        "en": "Nine-Tattoo Dragon Elisa",
+        "jp": "九紋竜エリザ"
+    },
+    {
+        "id": 368,
+        "en": "Britomart",
+        "jp": "ブリトマート"
+    },
+    {
+        "id": 369,
+        "en": "Rasputin",
+        "jp": "グレゴリー・ラスプーチン"
+    },
+    {
+        "id": 370,
+        "en": "Nitocris (Alter)",
+        "jp": "ニトクリス〔オルタ〕"
+    },
+    {
+        "id": 371,
+        "en": "Tezcatlipoca",
+        "jp": "テスカトリポカ"
+    },
+    {
+        "id": 372,
+        "en": "Tlaloc",
+        "jp": "トラロック"
+    },
+    {
+        "id": 373,
+        "en": "Kukulcan",
+        "jp": "ククルカン"
+    },
+    {
+        "id": 374,
+        "en": "Johanna",
+        "jp": "女教皇ヨハンナ"
+    },
+    {
+        "id": 375,
+        "en": "Takasugi",
+        "jp": "高杉晋作"
+    },
+    {
+        "id": 376,
+        "en": "Tiamat",
+        "jp": "ティアマト"
+    },
+    {
+        "id": 377,
+        "en": "Draco",
+        "jp": "ドラコー"
+    },
+    {
+        "id": 378,
+        "en": "Locusta",
+        "jp": "ロクスタ"
+    },
+    {
+        "id": 379,
+        "en": "Setanta",
+        "jp": "セタンタ"
+    },
+    {
+        "id": 380,
+        "en": "Kashin Koji",
+        "jp": "果心居士"
+    },
+    {
+        "id": 381,
+        "en": "Bhima",
+        "jp": "ビーマ"
+    },
+    {
+        "id": 382,
+        "en": "Duryodhana",
+        "jp": "ドゥリーヨダナ"
+    },
+    {
+        "id": 383,
+        "en": "Durga",
+        "jp": "ドゥルガー"
+    },
+    {
+        "id": 384,
+        "en": "Medusa (Saber)",
+        "jp": "メドゥーサ〔セイバー〕"
+    },
+    {
+        "id": 385,
+        "en": "Summer Morgan",
+        "jp": "雨の魔女トネリコ"
+    },
+    {
+        "id": 386,
+        "en": "Summer Altria Caster",
+        "jp": "水着アルトリア・キャスター"
+    },
+    {
+        "id": 387,
+        "en": "Summer Suzuka",
+        "jp": "水着鈴鹿御前〕"
+    },
+    {
+        "id": 388,
+        "en": "Summer Chloe",
+        "jp": "水着クロエ"
+    },
+    {
+        "id": 389,
+        "en": "Cnoc na Riabh",
+        "jp": "ノクナレア"
+    },
+    {
+        "id": 390,
+        "en": "Summer Mélusine",
+        "jp": "水着メリュジーヌ"
+    },
+    {
+        "id": 391,
+        "en": "Summer Barghest",
+        "jp": "ＵＤＫ－バーゲスト"
+    },
+    {
+        "id": 392,
+        "en": "Cait Cú Cerpriestess",
+        "jp": "ケット・クー・ミコケル"
+    },
+    {
+        "id": 393,
+        "en": "Wandjina",
+        "jp": "ワンジナ"
+    },
+    {
+        "id": 394,
+        "en": "Ptolemy",
+        "jp": "プトレマイオス"
+    },
+    {
+        "id": 395,
+        "en": "Sugitani",
+        "jp": "杉谷善住坊"
+    },
+    {
+        "id": 396,
+        "en": "Theseus",
+        "jp": "テセウス"
+    },
+    {
+        "id": 397,
+        "en": "Takeda",
+        "jp": "武田晴信"
+    },
+    {
+        "id": 398,
+        "en": "Shinpachi",
+        "jp": "永倉新八"
+    },
+    {
+        "id": 399,
+        "en": "Saika",
+        "jp": "雑賀孫一"
+    },
+    {
+        "id": 400,
+        "en": "Kenshin",
+        "jp": "上杉謙信"
+    },
+    {
+        "id": 401,
+        "en": "Nemo (Santa)",
+        "jp": "ネモ〔サンタ〕"
+    },
+    {
+        "id": 402,
+        "en": "Takeru",
+        "jp": "ヤマトタケル"
+    },
+    {
+        "id": 403,
+        "en": "Ushi Gozen",
+        "jp": "源頼光／丑御前"
+    },
+    {
+        "id": 404,
+        "en": "Yui",
+        "jp": "由井正雪"
+    },
+    {
+        "id": 405,
+        "en": "Iori",
+        "jp": "宮本伊織"
+    },
+    {
+        "id": 406,
+        "en": "Andromeda",
+        "jp": "アンドロメダ"
+    },
+    {
+        "id": 407,
+        "en": "Marie (Alter)",
+        "jp": "マリー〔オルタ〕"
+    },
+    {
+        "id": 408,
+        "en": "Shining Star Hassan",
+        "jp": "耀星のハサン"
+    },
+    {
+        "id": 409,
+        "en": "Monte Cristo",
+        "jp": "巌窟王　モンテ・クリスト"
+    },
+    {
+        "id": 410,
+        "en": "Cagliostro",
+        "jp": "アレッサンドロ・ディ・カリオストロ"
+    },
+    {
+        "id": 413,
+        "en": "Aoko",
+        "jp": "蒼崎青子"
+    },
+    {
+        "id": 414,
+        "en": "Soujuurou",
+        "jp": "静希草十郎"
+    },
+    {
+        "id": 415,
+        "en": "Alice",
+        "jp": "久遠寺有珠"
+    },
+    {
+        "id": 416,
+        "en": "Hibiki & Chikagi",
+        "jp": "ひびき＆千鍵"
+    },
+    {
+        "id": 417,
+        "en": "Summer Ereshkigal",
+        "jp": "水着エレシュキガル"
+    },
+    {
+        "id": 418,
+        "en": "CIEL",
+        "jp": "謎の代行者C.I.E.L"
+    },
+    {
+        "id": 419,
+        "en": "Summer Dobrynya",
+        "jp": "水着ドブルイニャ"
+    },
+    {
+        "id": 420,
+        "en": "Summer Xu Fu",
+        "jp": "水着徐福"
+    },
+    {
+        "id": 421,
+        "en": "BB Dubai",
+        "jp": "ＢＢドバイ"
+    },
+    {
+        "id": 422,
+        "en": "Summer Tlaloc",
+        "jp": "テノチティトラン"
+    },
+    {
+        "id": 423,
+        "en": "MHXXA",
+        "jp": "謎のヒロインXX〔オルタ〕"
+    },
+    {
+        "id": 424,
+        "en": "Hakuno",
+        "jp": "岸波白野"
+    },
+    {
+        "id": 425,
+        "en": "Hakunon",
+        "jp": "岸波白野"
+    },
+    {
+        "id": 426,
+        "en": "Kazuradrop",
+        "jp": "カズラドロップ"
+    },
+    {
+        "id": 427,
+        "en": "Tutankhamun",
+        "jp": "ツタンカーメン"
+    },
+    {
+        "id": 428,
+        "en": "Van Gogh (Miner)",
+        "jp": "ヴァン・ゴッホ〔マイナー〕"
+    },
+    {
+        "id": 429,
+        "en": "Louhi ",
+        "jp": "ロウヒ"
+    },
+    {
+        "id": 430,
+        "en": "Abigail (Santa)",
+        "jp": "アビゲイル〔サンタ〕"
+    },
+    {
+        "id": 431,
+        "en": "Phantasmoon",
+        "jp": "ファンタズムーン"
+    },
+    {
+        "id": 432,
+        "en": "Richard",
+        "jp": "リチャードⅠ世"
+    },
+    {
+        "id": 433,
+        "en": "Biscione",
+        "jp": "ビショーネ"
+    },
+    {
+        "id": 434,
+        "en": "Kurohime",
+        "jp": "黒姫"
+    },
+    {
+        "id": 435,
+        "en": "Komachi",
+        "jp": "小野小町"
+    },
+    {
+        "id": 437,
+        "en": "Dante Alighieri",
+        "jp": "ダンテ・アリギエーリ"
+    },
+    {
+        "id": 438,
+        "en": "Metatron Jeanne",
+        "jp": "メタトロン・ジャンヌ"
+    },
+    {
+        "id": 439,
+        "en": "Ashoka",
+        "jp": "アショカ王"
+    },
+    {
+        "id": 440,
+        "en": "Lilith",
+        "jp": "リリス"
+    },
+    {
+        "id": 441,
+        "en": "Typhon",
+        "jp": "テュフォン・エフェメロス"
+    },
+    {
+        "id": 442,
+        "en": "Indra",
+        "jp": "インドラ"
+    },
+    {
+        "id": 444,
+        "en": "U-Olga Marie",
+        "jp": "Ｕ－オルガマリー"
+    },
+    {
+        "id": 445,
+        "en": "Summer Passionlip",
+        "jp": "水着パッションリップ"
+    },
+    {
+        "id": 446,
+        "en": "Summer Kriemhild",
+        "jp": "水着クリームヒルト"
+    },
+    {
+        "id": 447,
+        "en": "Summer Huyan",
+        "jp": "水着呼延灼"
+    },
+    {
+        "id": 448,
+        "en": "Jade Rabbit",
+        "jp": "玉兎"
+    },
+    {
+        "id": 449,
+        "en": "Summer Miyu",
+        "jp": "水着美遊・エーデルフェルト"
+    },
+    {
+        "id": 450,
+        "en": "Summer Tiamat",
+        "jp": "水着ティアマト"
+    },
+    {
+        "id": 451,
+        "en": "Jeunesse Crane",
+        "jp": "ジュネス・クレーン"
+    },
+    {
+        "id": 452,
+        "en": "Noah",
+        "jp": "ネモ／ノア"
+    },
+    {
+        "id": 453,
+        "en": "Gensai",
+        "jp": "河上彦斎"
+    },
+    {
+        "id": 454,
+        "en": "Tōdō Heisuke",
+        "jp": "藤堂平助"
+    },
+    {
+        "id": 455,
+        "en": "Harada Sanosuke",
+        "jp": "原田左之助"
+    },
+    {
+        "id": 456,
+        "en": "Kondo Isami",
+        "jp": "近藤勇"
+    },
+    {
+        "id": 457,
+        "en": "Elisabeth (Lancer)",
+        "jp": "エリザベート〔ランサー〕"
+    },
+    {
+        "id": 458,
+        "en": "Elisabeth of the End",
+        "jp": "終わりのエリザベート"
+    },
+    {
+        "id": 459,
+        "en": "Solomon",
+        "jp": "ソロモン"
+    },
+    {
+        "id": 461,
+        "en": "Lord Logres",
+        "jp": "ロード・ログレス"
+    },
+    {
+        "id": 462,
+        "en": "Hanasaka no Okina",
+        "jp": "花咲翁"
+    },
+    {
+        "id": 463,
+        "en": "Hebi Nyōbō",
+        "jp": "蛇女房"
+    },
+    {
+        "id": 464,
+        "en": "Flora",
+        "jp": "フローラ"
+    },
+    {
+        "id": 465,
+        "en": "Demeter",
+        "jp": "デメテル"
+    }
+]

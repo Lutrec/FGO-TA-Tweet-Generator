@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGO TA Tweet Generator</title>
+    <style>
+        :root {
+            /* Twitter "Dim" Dark Theme (Default) */
+            --bg-color: #15202b;
+            --container-bg: #1e2732;
+            --text-color: #ffffff;
+            --text-muted: #8b98a5;
+            --input-bg: #273340;
+            --input-border: #38444d;
+            --input-focus: #1d9bf0;
+            --btn-primary: #1d9bf0;
+            --btn-hover: #1a8cd8;
+            --stepper-bg: #38444d;
+            --stepper-text: #ffffff;
+            --stepper-hover: #2c3640;
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            --border-radius: 16px;
+        }
+
+        body.light-theme {
+            /* Twitter Crisp Light Theme */
+            --bg-color: #f7f9f9;
+            --container-bg: #ffffff;
+            --text-color: #0f1419;
+            --text-muted: #536471;
+            --input-bg: #eff3f4;
+            --input-border: #cfd9de;
+            --input-focus: #1d9bf0;
+            --btn-primary: #1d9bf0;
+            --btn-hover: #1a8cd8;
+            --stepper-bg: #eff3f4;
+            --stepper-text: #0f1419;
+            --stepper-hover: #cfd9de;
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            background: var(--container-bg);
+            box-shadow: var(--shadow);
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--btn-primary);
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .theme-toggle-btn {
+            background: transparent;
+            color: var(--text-color);
+            border: 1px solid var(--input-border);
+            padding: 8px 12px;
+            border-radius: 9999px;
+            cursor: pointer;
+            font-size: 14px;
+            width: auto;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .theme-toggle-btn:hover {
+            background-color: var(--input-bg);
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            background-color: var(--input-bg);
+            color: var(--text-color);
+            border: 1px solid var(--input-border);
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 15px;
+            transition: all 0.2s ease;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--input-focus);
+            box-shadow: 0 0 0 2px rgba(29, 155, 240, 0.2);
+            background-color: var(--container-bg);
+        }
+
+        .side-by-side {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .side-by-side label {
+            margin-top: 15px;
+        }
+
+        .stepper-group {
+            display: flex;
+            gap: 8px;
+            margin-top: 5px;
+        }
+
+        .stepper-btn {
+            width: 50px;
+            margin-top: 0;
+            font-size: 20px;
+            background-color: var(--stepper-bg);
+            color: var(--stepper-text);
+            border-radius: 8px;
+            padding: 0;
+        }
+
+        .stepper-btn:hover {
+            background-color: var(--stepper-hover);
+        }
+
+        input[type="number"] {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            -moz-appearance: textfield;
+        }
+
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .checkbox-group,
+        .radio-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .radio-group {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .checkbox-group label,
+        .radio-group label {
+            margin-top: 0;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        .action-buttons,
+        .output-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: var(--btn-primary);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 9999px;
+            /* Twitter Pill Shape */
+            cursor: pointer;
+            font-size: 15px;
+            width: 100%;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: var(--btn-hover);
+        }
+
+        .reset-btn {
+            background-color: #f4212e;
+        }
+
+        .reset-btn:hover {
+            background-color: #df1b27;
+        }
+
+        .copy-btn {
+            background-color: #00ba7c;
+            margin-top: 0;
+        }
+
+        .copy-btn:hover {
+            background-color: #00a06a;
+        }
+
+        .twitter-btn {
+            background-color: var(--btn-primary);
+            margin-top: 0;
+        }
+
+        .twitter-btn:hover {
+            background-color: var(--btn-hover);
+        }
+
+        textarea {
+            height: 140px;
+            resize: vertical;
+            margin-bottom: 10px;
+        }
+
+        #loading {
+            color: var(--btn-primary);
+            font-style: italic;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--input-border);
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-top">
+        <h1>FGO TA Tweet Generator</h1>
+        <button type="button" class="theme-toggle-btn" id="theme-btn" onclick="toggleTheme()">☀️ Light</button>
+    </div>
+
+    <div id="loading">Loading data...</div>
+
+    <form id="ta-form" style="display: none;">
+        <label>Output Language:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="lang" value="both" checked> Both</label>
+            <label><input type="radio" name="lang" value="jp"> Japanese</label>
+            <label><input type="radio" name="lang" value="en"> English</label>
+        </div>
+
+        <label for="event">Event:</label>
+        <input type="text" id="event" list="event-list" placeholder="Select or type event..." />
+        <datalist id="event-list"></datalist>
+
+        <label for="stage">Quest / Stage:</label>
+        <input type="text" id="stage" list="stage-list" placeholder="Select or type quest..." />
+        <datalist id="stage-list"></datalist>
+
+        <label for="servant">Main DPS / Servant:</label>
+        <input type="text" id="servant" list="servant-list" placeholder="Select or type servant..." />
+        <datalist id="servant-list"></datalist>
+
+        <div class="side-by-side">
+            <div>
+                <label for="turns">Turn Count:</label>
+                <div class="stepper-group">
+                    <button type="button" class="stepper-btn"
+                        onclick="document.getElementById('turns').stepDown()">-</button>
+                    <input type="number" id="turns" min="1" value="3" />
+                    <button type="button" class="stepper-btn"
+                        onclick="document.getElementById('turns').stepUp()">+</button>
+                </div>
+            </div>
+
+            <div>
+                <label for="party-size">Party Size:</label>
+                <div class="stepper-group">
+                    <button type="button" class="stepper-btn"
+                        onclick="document.getElementById('party-size').stepDown()">-</button>
+                    <input type="number" id="party-size" min="1" max="6" value="6" />
+                    <button type="button" class="stepper-btn"
+                        onclick="document.getElementById('party-size').stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+        <label>Restrictions / Setup Details:</label>
+        <div class="checkbox-group" id="restrictions-container"></div>
+
+        <label for="comments">Extra Comments (Optional):</label>
+        <input type="text" id="comments" placeholder="e.g., RNG was awful on wave 2!" />
+
+        <div class="action-buttons">
+            <button type="button" onclick="generateTweet()">Generate</button>
+            <button type="button" class="reset-btn" onclick="resetForm()">Reset</button>
+        </div>
+    </form>
+
+    <hr>
+
+    <label for="output">Twitter Output:</label>
+    <textarea id="output" readonly placeholder="Your tweet will appear here..."></textarea>
+
+    <div class="output-actions">
+        <button class="copy-btn" onclick="copyToClipboard()">Copy to Clipboard</button>
+        <button class="twitter-btn" onclick="tweetDirectly()">Post to X</button>
+    </div>
+
+    <script>
+        let fgoData = { events: [], servants: [], restrictions: [] };
+
+        document.addEventListener("DOMContentLoaded", () => {
+            // Check system theme preference on load
+            const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+            const themeBtn = document.getElementById('theme-btn');
+
+            if (prefersLight) {
+                document.body.classList.add('light-theme');
+                if (themeBtn) themeBtn.innerText = "🌙 Dark";
+            }
+
+            Promise.all([
+                fetch('events.json').then(res => res.json()),
+                fetch('servants.json').then(res => res.json()),
+                fetch('restrictions.json').then(res => res.json())
+            ])
+                .then(([eventsData, servantsData, restrictionsData]) => {
+                    fgoData.events = eventsData;
+                    fgoData.servants = servantsData;
+                    fgoData.restrictions = restrictionsData;
+                    populateUI();
+                })
+                .catch(error => {
+                    console.error('Error loading JSON files:', error);
+                    document.getElementById('loading').innerText = "Failed to load FGO data. Check console.";
+                });
+        });
+
+        // Listen for system theme changes dynamically
+        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', event => {
+            const body = document.body;
+            const themeBtn = document.getElementById('theme-btn');
+            if (event.matches) {
+                body.classList.add('light-theme');
+                if (themeBtn) themeBtn.innerText = "🌙 Dark";
+            } else {
+                body.classList.remove('light-theme');
+                if (themeBtn) themeBtn.innerText = "☀️ Light";
+            }
+        });
+
+        function toggleTheme() {
+            const body = document.body;
+            const themeBtn = document.getElementById('theme-btn');
+            body.classList.toggle('light-theme');
+
+            if (body.classList.contains('light-theme')) {
+                themeBtn.innerText = "🌙 Dark";
+            } else {
+                themeBtn.innerText = "☀️ Light";
+            }
+        }
+
+        function populateUI() {
+            const eventList = document.getElementById('event-list');
+            fgoData.events.forEach(ev => {
+                let option = document.createElement('option');
+                option.value = ev.en;
+                eventList.appendChild(option);
+            });
+
+            const servantList = document.getElementById('servant-list');
+            fgoData.servants.forEach(sv => {
+                let option = document.createElement('option');
+                option.value = sv.id ? `${sv.id} - ${sv.en}` : sv.en;
+                servantList.appendChild(option);
+            });
+
+            const restrictionsContainer = document.getElementById('restrictions-container');
+            fgoData.restrictions.forEach(res => {
+                let label = document.createElement('label');
+                label.innerHTML = `<input type="checkbox" value="${res.en}" class="restriction"> ${res.en}`;
+                restrictionsContainer.appendChild(label);
+            });
+
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('ta-form').style.display = 'block';
+        }
+
+        document.getElementById('event').addEventListener('input', (e) => {
+            const selectedEventEn = e.target.value;
+            const stageInput = document.getElementById('stage');
+            const stageList = document.getElementById('stage-list');
+
+            stageList.innerHTML = '';
+            const matchedEvent = fgoData.events.find(ev => ev.en === selectedEventEn);
+
+            if (matchedEvent && matchedEvent.stages && matchedEvent.stages.length > 0) {
+                matchedEvent.stages.forEach(st => {
+                    let option = document.createElement('option');
+                    option.value = st.en;
+                    stageList.appendChild(option);
+                });
+
+                if (matchedEvent.stages.length === 1) {
+                    stageInput.value = matchedEvent.stages[0].en;
+                } else {
+                    stageInput.value = '';
+                }
+            } else {
+                stageInput.value = '';
+            }
+        });
+
+        function getJpString(category, enText) {
+            const item = fgoData[category].find(i => i.en === enText);
+            return item ? item.jp : enText;
+        }
+
+        function generateTweet() {
+            const lang = document.querySelector('input[name="lang"]:checked').value;
+            const eventEnInput = document.getElementById('event').value || 'Placeholder Event';
+            const stageEnInput = document.getElementById('stage').value;
+
+            // Strip ID from Servant input
+            const rawServantInput = document.getElementById('servant').value || 'Placeholder Servant';
+            const servantEn = rawServantInput.replace(/^\d+\s*-\s*/, '');
+
+            const turnNum = document.getElementById('turns').value;
+            const partySize = parseInt(document.getElementById('party-size').value, 10);
+            const commentsEn = document.getElementById('comments').value;
+
+            let eventJp = eventEnInput;
+            let stageJp = stageEnInput;
+
+            const matchedEvent = fgoData.events.find(ev => ev.en === eventEnInput);
+            if (matchedEvent) {
+                eventJp = matchedEvent.jp;
+                if (stageEnInput && matchedEvent.stages) {
+                    const matchedStage = matchedEvent.stages.find(st => st.en === stageEnInput);
+                    if (matchedStage) stageJp = matchedStage.jp;
+                }
+            }
+
+            const finalEventEn = stageEnInput ? `${eventEnInput}\n${stageEnInput}` : eventEnInput;
+            const finalEventJp = stageJp ? `${eventJp}\n${stageJp}` : eventJp;
+
+            const servantJp = getJpString('servants', servantEn);
+            const turnJp = "で" + turnNum + "ターン";
+            const turnEn = turnNum + "T";
+
+            const checkboxes = document.querySelectorAll('.restriction:checked');
+            const restrictionsEnArr = Array.from(checkboxes).map(cb => cb.value);
+            const restrictionsJpArr = restrictionsEnArr.map(res => getJpString('restrictions', res));
+
+            if (partySize < 6) {
+                let sizeTextEn = "";
+                let sizeTextJp = "";
+
+                if (partySize === 1) {
+                    sizeTextEn = "solo";
+                    sizeTextJp = "単騎";
+                } else if (partySize === 2) {
+                    sizeTextEn = "effectively 2 man";
+                    sizeTextJp = "実質2枠";
+                } else if (partySize === 3) {
+                    sizeTextEn = "flo";
+                    sizeTextJp = "前衛のみ";
+                } else {
+                    sizeTextEn = `${partySize} man`;
+                    sizeTextJp = `${partySize}枠`;
+                }
+
+                restrictionsEnArr.unshift(sizeTextEn);
+                restrictionsJpArr.unshift(sizeTextJp);
+            }
+
+            let restrictionTextJp = restrictionsJpArr.length > 0 ? `${restrictionsJpArr.join(' ')}` : '';
+            const tweetJp = `【FGO】${finalEventJp}\n${servantJp}${turnJp} ${restrictionTextJp}`;
+
+            let restrictionTextEn = restrictionsEnArr.length > 0 ? `${restrictionsEnArr.join(' ')}` : '';
+            const tweetEn = `【FGO】${finalEventEn}\n${servantEn} ${turnEn} ${restrictionTextEn}`;
+
+            let finalOutput = "";
+
+            if (lang === "jp") {
+                finalOutput = tweetJp;
+            } else if (lang === "en") {
+                finalOutput = tweetEn;
+            } else if (lang === "both") {
+                finalOutput = tweetJp + "\n\n" + tweetEn;
+            }
+
+            if (commentsEn) {
+                finalOutput += `\n${commentsEn}`;
+            }
+
+            finalOutput += "\n#FGO #FGOTA #FGOAA";
+
+            document.getElementById('output').value = finalOutput;
+        }
+
+        function copyToClipboard() {
+            const outputBox = document.getElementById('output');
+            if (outputBox.value === "") { 
+                alert("Generate a tweet first."); // We leave the error alert so they know why it failed
+                return; 
+            }
+            
+            const copyBtn = document.querySelector('.copy-btn');
+            const originalText = copyBtn.innerText;
+
+            // Modern clipboard API
+            navigator.clipboard.writeText(outputBox.value).then(() => {
+                // Change button text temporarily
+                copyBtn.innerText = "Copied!";
+                setTimeout(() => copyBtn.innerText = originalText, 2000);
+            }).catch(err => {
+                // Fallback
+                outputBox.select();
+                document.execCommand("copy");
+                copyBtn.innerText = "Copied!";
+                setTimeout(() => copyBtn.innerText = originalText, 2000);
+            });
+        }
+
+        function resetForm() {
+            document.getElementById('ta-form').reset();
+            document.getElementById('output').value = '';
+            document.getElementById('turns').value = 3;
+            document.getElementById('party-size').value = 6;
+            document.getElementById('stage-list').innerHTML = '';
+        }
+
+        function tweetDirectly() {
+            const outputBox = document.getElementById('output');
+            const tweetText = outputBox.value;
+
+            if (tweetText === "") {
+                alert("Generate a tweet first.");
+                return;
+            }
+
+            const encodedTweet = encodeURIComponent(tweetText);
+            const twitterUrl = `https://x.com/intent/tweet?text=${encodedTweet}`;
+            window.open(twitterUrl, '_blank');
+        }
+    </script>
+</body>
+
+</html>
