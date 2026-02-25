@@ -7,7 +7,7 @@
     <title>FGO TA Tweet Generator</title>
     <style>
         :root {
-            /* Twitter "Dim" Dark Theme (Default) */
+            /* Dark Theme (Default) */
             --bg-color: #15202b;
             --container-bg: #1e2732;
             --text-color: #ffffff;
@@ -25,7 +25,7 @@
         }
 
         body.light-theme {
-            /* Twitter Crisp Light Theme */
+            /* Light Theme */
             --bg-color: #f7f9f9;
             --container-bg: #ffffff;
             --text-color: #0f1419;
@@ -192,7 +192,6 @@
             border: none;
             padding: 12px 20px;
             border-radius: 9999px;
-            /* Twitter Pill Shape */
             cursor: pointer;
             font-size: 15px;
             width: 100%;
@@ -265,8 +264,8 @@
         <label>Output Language:</label>
         <div class="radio-group">
             <label><input type="radio" name="lang" value="both" checked> Both</label>
-            <label><input type="radio" name="lang" value="jp"> Japanese</label>
-            <label><input type="radio" name="lang" value="en"> English</label>
+            <label><input type="radio" name="lang" value="jp"> JP</label>
+            <label><input type="radio" name="lang" value="en"> EN</label>
         </div>
 
         <label for="event">Event:</label>
@@ -324,7 +323,7 @@
 
     <div class="output-actions">
         <button class="copy-btn" onclick="copyToClipboard()">Copy to Clipboard</button>
-        <button class="twitter-btn" onclick="tweetDirectly()">Post to X</button>
+        <button class="twitter-btn" onclick="tweetDirectly()">Post to Twitter</button>
     </div>
 
     <script>
@@ -523,15 +522,14 @@
 
         function copyToClipboard() {
             const outputBox = document.getElementById('output');
-            if (outputBox.value === "") { 
-                alert("Generate a tweet first."); // We leave the error alert so they know why it failed
-                return; 
+            if (outputBox.value === "") {
+                alert("Generate a tweet first.");
+                return;
             }
-            
+
             const copyBtn = document.querySelector('.copy-btn');
             const originalText = copyBtn.innerText;
 
-            // Modern clipboard API
             navigator.clipboard.writeText(outputBox.value).then(() => {
                 // Change button text temporarily
                 copyBtn.innerText = "Copied!";
