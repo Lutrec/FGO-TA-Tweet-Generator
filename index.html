@@ -182,40 +182,29 @@
         /* --- Hashtag Section Styles --- */
         .hashtag-main-label {
             margin-top: 15px;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
             font-size: 16px;
+        }
+
+        .tags-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
         }
 
         .sub-label {
             display: block;
-            margin-top: 5px;
+            margin-top: 0;
+            margin-bottom: 8px;
             font-size: 13px;
             color: var(--text-muted);
             font-weight: normal;
         }
 
         .tags-section .checkbox-group {
-            margin-top: 2px;
-            gap: 5px;
-            grid-template-columns: 1fr 1fr 1fr;
-            /* Allows 3 items nicely */
-        }
-
-        .tags-section .single-tag-group {
-            grid-template-columns: 1fr;
-            /* Forces single tags onto one line */
-        }
-
-        .side-by-side-tags {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            margin-top: 8px;
-        }
-
-        .side-by-side-tags .sub-label {
             margin-top: 0;
-            /* Remove top margin when side-by-side */
+            gap: 8px;
+            grid-template-columns: 1fr; /* Stacks all checkboxes vertically inside their column */
         }
 
         .action-buttons,
@@ -351,29 +340,29 @@
 
         <hr>
         <label class="hashtag-main-label">Hashtags:</label>
+        
         <div class="tags-section">
-
-            <div class="checkbox-group">
-                <label><input type="checkbox" class="tag-checkbox" value="#FGO" checked> #FGO</label>
-                <label><input type="checkbox" class="tag-checkbox" value="#FGOTA" checked> #FGOTA</label>
-                <label><input type="checkbox" class="tag-checkbox" value="#FGOAA" checked> #FGOAA</label>
-            </div>
-
-            <div class="side-by-side-tags">
-                <div>
-                    <span class="sub-label">B3R/DB</span>
-                    <div class="checkbox-group single-tag-group">
-                        <label><input type="checkbox" class="tag-checkbox" value="#菩薩TA"> #菩薩TA</label>
-                    </div>
-                </div>
-                <div>
-                    <span class="sub-label">B3L</span>
-                    <div class="checkbox-group single-tag-group">
-                        <label><input type="checkbox" class="tag-checkbox" value="#愛欲TA"> #愛欲TA</label>
-                    </div>
+            <div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" class="tag-checkbox" value="#FGO" checked> #FGO</label>
+                    <label><input type="checkbox" class="tag-checkbox" value="#FGOTA" checked> #FGOTA</label>
+                    <label><input type="checkbox" class="tag-checkbox" value="#FGOAA" checked> #FGOAA</label>
                 </div>
             </div>
 
+            <div>
+                <span class="sub-label">B3R/DB</span>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" class="tag-checkbox" value="#菩薩TA"> #菩薩TA</label>
+                </div>
+            </div>
+
+            <div>
+                <span class="sub-label">B3L</span>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" class="tag-checkbox" value="#愛欲TA"> #愛欲TA</label>
+                </div>
+            </div>
         </div>
 
         <div class="action-buttons">
