@@ -179,11 +179,50 @@
             cursor: pointer;
         }
 
+        /* --- Hashtag Section Styles --- */
+        .hashtag-main-label {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .sub-label {
+            display: block;
+            margin-top: 5px;
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: normal;
+        }
+
+        .tags-section .checkbox-group {
+            margin-top: 2px;
+            gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* Allows 3 items nicely */
+        }
+
+        .tags-section .single-tag-group {
+            grid-template-columns: 1fr;
+            /* Forces single tags onto one line */
+        }
+
+        .side-by-side-tags {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 8px;
+        }
+
+        .side-by-side-tags .sub-label {
+            margin-top: 0;
+            /* Remove top margin when side-by-side */
+        }
+
         .action-buttons,
         .output-actions {
             display: flex;
             gap: 10px;
-            margin-top: 20px;
+            margin-top: 25px;
         }
 
         button {
@@ -246,7 +285,7 @@
             border: 0;
             height: 1px;
             background: var(--input-border);
-            margin: 30px 0;
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -308,7 +347,34 @@
         <div class="checkbox-group" id="restrictions-container"></div>
 
         <label for="comments">Extra Comments (Optional):</label>
-        <input type="text" id="comments" placeholder="e.g., RNG was awful on wave 2!" />
+        <input type="text" id="comments" placeholder="e.g. What a dog game!" />
+
+        <hr>
+        <label class="hashtag-main-label">Hashtags:</label>
+        <div class="tags-section">
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" class="tag-checkbox" value="#FGO" checked> #FGO</label>
+                <label><input type="checkbox" class="tag-checkbox" value="#FGOTA" checked> #FGOTA</label>
+                <label><input type="checkbox" class="tag-checkbox" value="#FGOAA" checked> #FGOAA</label>
+            </div>
+
+            <div class="side-by-side-tags">
+                <div>
+                    <span class="sub-label">B3R/DB</span>
+                    <div class="checkbox-group single-tag-group">
+                        <label><input type="checkbox" class="tag-checkbox" value="#菩薩TA"> #菩薩TA</label>
+                    </div>
+                </div>
+                <div>
+                    <span class="sub-label">B3L</span>
+                    <div class="checkbox-group single-tag-group">
+                        <label><input type="checkbox" class="tag-checkbox" value="#愛欲TA"> #愛欲TA</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <div class="action-buttons">
             <button type="button" onclick="generateTweet()">Generate</button>
@@ -330,7 +396,6 @@
         let fgoData = { events: [], servants: [], restrictions: [] };
 
         document.addEventListener("DOMContentLoaded", () => {
-            // Check system theme preference on load
             const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
             const themeBtn = document.getElementById('theme-btn');
 
@@ -356,7 +421,6 @@
                 });
         });
 
-        // Listen for system theme changes dynamically
         window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', event => {
             const body = document.body;
             const themeBtn = document.getElementById('theme-btn');
@@ -442,7 +506,6 @@
             const eventEnInput = document.getElementById('event').value || 'Placeholder Event';
             const stageEnInput = document.getElementById('stage').value;
 
-            // Strip ID from Servant input
             const rawServantInput = document.getElementById('servant').value || 'Placeholder Servant';
             const servantEn = rawServantInput.replace(/^\d+\s*-\s*/, '');
 
@@ -515,7 +578,11 @@
                 finalOutput += `\n${commentsEn}`;
             }
 
-            finalOutput += "\n#FGO #FGOTA #FGOAA";
+            // Append selected hashtags dynamically
+            const selectedTags = Array.from(document.querySelectorAll('.tag-checkbox:checked')).map(cb => cb.value);
+            if (selectedTags.length > 0) {
+                finalOutput += "\n" + selectedTags.join(" ");
+            }
 
             document.getElementById('output').value = finalOutput;
         }
@@ -531,11 +598,9 @@
             const originalText = copyBtn.innerText;
 
             navigator.clipboard.writeText(outputBox.value).then(() => {
-                // Change button text temporarily
                 copyBtn.innerText = "Copied!";
                 setTimeout(() => copyBtn.innerText = originalText, 2000);
             }).catch(err => {
-                // Fallback
                 outputBox.select();
                 document.execCommand("copy");
                 copyBtn.innerText = "Copied!";
