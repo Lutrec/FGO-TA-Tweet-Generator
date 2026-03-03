@@ -1,19 +1,19 @@
 [
     {
-        "en": "no CE on attacker",
-        "jp": "アタッカー礼装なし"
-    },
-    {
-        "en": "no CEs",
-        "jp": "全員礼装なし"
+        "en": "effectively flo",
+        "jp": "実質前衛のみ"
     },
     {
         "en": "no dupes",
         "jp": "W編成なし"
     },
     {
-        "en": "effectively flo",
-        "jp": "実質前衛のみ"
+        "en": "no CE on attacker",
+        "jp": "アタッカー礼装なし"
+    },
+    {
+        "en": "no CEs",
+        "jp": "全員礼装なし"
     },
     {
         "en": "4* supports or lower",
@@ -27,7 +27,7 @@
         "en": "2* supports or lower",
         "jp": "サポ星2以下"
     },
-     {
+    {
         "en": "1* supports only",
         "jp": "サポ星1のみ"
     },
