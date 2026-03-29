@@ -4,8 +4,8 @@
         "jp": "実質前衛のみ"
     },
     {
-        "en": "no dupes",
-        "jp": "W編成なし"
+        "en": "no event CE",
+        "jp": "特攻礼装なし"
     },
     {
         "en": "no CE on attacker",
@@ -50,5 +50,9 @@
     {
         "en": "same class servants",
         "jp": "クラス統一"
+    },
+    {
+        "en": "no dupes",
+        "jp": "W編成なし"
     }
 ]
