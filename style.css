@@ -273,3 +273,9 @@ hr {
   background: var(--input-border);
   margin: 20px 0;
 }
+
+#level {
+  text-align: left;
+  font-size: 15px;
+  font-weight: normal;
+}
