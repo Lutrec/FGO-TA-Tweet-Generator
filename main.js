@@ -156,6 +156,9 @@ function generateTweet() {
   const rawServantInput =
     document.getElementById("servant").value || "Placeholder Servant";
   const servantEn = rawServantInput.replace(/^\d+\s*-\s*/, "");
+  const levelNum = document.getElementById("level").value;
+  const levelTextEn = levelNum ? ` lvl ${levelNum}` : "";
+  const levelTextJp = levelNum ? ` レベル${levelNum}` : "";
 
   const turnNum = document.getElementById("turns").value;
   const partySize = parseInt(document.getElementById("party-size").value, 10);
@@ -214,11 +217,11 @@ function generateTweet() {
 
   let restrictionTextJp =
     restrictionsJpArr.length > 0 ? `${restrictionsJpArr.join(" ")}` : "";
-  const tweetJp = `【FGO】${finalEventJp}\n${servantJp}${turnJp} ${restrictionTextJp}`;
+  const tweetJp = `【FGO】${finalEventJp}\n${servantJp}${turnJp} ${levelTextJp} ${restrictionTextJp}`;
 
   let restrictionTextEn =
     restrictionsEnArr.length > 0 ? `${restrictionsEnArr.join(" ")}` : "";
-  const tweetEn = `【FGO】${finalEventEn}\n${servantEn} ${turnEn} ${restrictionTextEn}`;
+  const tweetEn = `【FGO】${finalEventEn}\n${servantEn} ${turnEn} ${levelTextEn} ${restrictionTextEn}`;
 
   let finalOutput = "";
 
@@ -274,6 +277,7 @@ function resetForm() {
   document.getElementById("output").value = "";
   document.getElementById("turns").value = 3;
   document.getElementById("party-size").value = 6;
+  document.getElementById("level").value = ""; // Add this line
   document.getElementById("stage-list").innerHTML = "";
 }
 

@@ -33,9 +33,17 @@
         <input type="text" id="stage" list="stage-list" placeholder="Select or type quest..." />
         <datalist id="stage-list"></datalist>
 
-        <label for="servant">Main DPS / Servant:</label>
-        <input type="text" id="servant" list="servant-list" placeholder="Select or type servant..." />
-        <datalist id="servant-list"></datalist>
+        <div class="side-by-side">
+            <div>
+                <label for="servant">Main DPS / Servant:</label>
+                <input type="text" id="servant" list="servant-list" placeholder="Select or type..." />
+                <datalist id="servant-list"></datalist>
+            </div>
+            <div>
+                <label for="level">Level (Optional):</label>
+                <input type="number" id="level" min="1" max="120" placeholder="e.g. 3" />
+            </div>
+        </div>
 
         <div class="side-by-side">
             <div>
