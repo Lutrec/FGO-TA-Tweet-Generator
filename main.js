@@ -157,8 +157,8 @@ function generateTweet() {
     document.getElementById("servant").value || "Placeholder Servant";
   const servantEn = rawServantInput.replace(/^\d+\s*-\s*/, "");
   const levelNum = document.getElementById("level").value;
-  const levelTextEn = levelNum ? ` lvl ${levelNum}` : "";
-  const levelTextJp = levelNum ? ` レベル${levelNum}` : "";
+  const levelTextEn = levelNum ? `lvl ${levelNum}` : "";
+  const levelTextJp = levelNum ? `レベル${levelNum}` : "";
 
   const turnNum = document.getElementById("turns").value;
   const partySize = parseInt(document.getElementById("party-size").value, 10);
