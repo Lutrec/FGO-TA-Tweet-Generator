@@ -2293,5 +2293,55 @@
         "id": 471,
         "en": "Ascalaphus",
         "jp": "アスカラポス"
+    },
+    {
+        "id": 472,
+        "en": "Gray Lily (Saber)",
+        "jp": "グレイ・リリィ〔セイバー〕"
+    },
+    {
+        "id": 473,
+        "en": "Gray Lily (Lancer)",
+        "jp": "グレイ・リリィ〔ランサー〕"
+    },
+    {
+        "id": 474,
+        "en": "Azrael",
+        "jp": "アズライール"
+    },
+    {
+        "id": 475,
+        "en": "Summer Beni-Enma",
+        "jp": "水着紅閻魔"
+    },
+    {
+        "id": 476,
+        "en": "Summer Kingprotea",
+        "jp": "水着キングプロテア"
+    },
+    {
+        "id": 477,
+        "en": "Summer Biscione",
+        "jp": "水着ビショーネ"
+    },
+    {
+        "id": 478,
+        "en": "Summer Lilith",
+        "jp": "水着リリス"
+    },
+    {
+        "id": 479,
+        "en": "Kingprotea Alter",
+        "jp": "キングプロテア・オルタ"
+    },
+    {
+        "id": 480,
+        "en": "Summer Ono-no-Komachi",
+        "jp": "水着小野小町"
+    },
+    {
+        "id": 481,
+        "en": "Summer Habetrot",
+        "jp": "水着ハベトロット"
     }
 ]
