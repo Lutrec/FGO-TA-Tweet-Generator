@@ -290,7 +290,7 @@
         "jp": "妖精双六虫籠遊戯 ",
         "stages": [
             {
-                "en": "【High Difficulty】Sakura Dancing in Darkness",
+                "en": "【High Difficulty】Sakura Dancing in the Dark",
                 "jp": "【高難易度】闇に舞うサクラ"
             }
         ]
@@ -370,80 +370,6 @@
             {
                 "en": "Act 19 Arrow 5 Cosmic Tree & Aśvatthāman",
                 "jp": "第19節 進行度5 空想樹スパイラル＆アシュヴァッターマン"
-            }
-        ]
-    },
-    {
-        "en": "BB Presents☆Celeb Summer Experience!",
-        "jp": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！",
-        "stages": [
-            {
-                "en": "【High Difficulty】Beachside Hut \"Ehangwen\"",
-                "jp": "【高難易度】海の家『エハングウェン』"
-            }
-        ]
-    },
-    {
-        "en": "Dancing Dragon Castle",
-        "jp": "踊るドラゴン・キャッスル！",
-        "stages": [
-            {
-                "en": "【High Difficulty】Welcome to Ahn'Eleru! (Dragon Island Branch)",
-                "jp": "【高難易度】アーネンエルベへようこそ！（ドラゴン島出張店）"
-            }
-        ]
-    },
-    {
-        "en": "Lilim Harlot Survey Rerun",
-        "jp": "リリムハーロット～アンケート復刻版",
-        "stages": [
-            {
-                "en": "【High Difficulty】Imitation Grail War",
-                "jp": "【高難易度】イミテーション・グレイルウォー"
-            }
-        ]
-    },
-    {
-        "en": "Chaldea Summer Adventure ~ Survey Rerun",
-        "jp": "カルデア･サマーアドベンチャー！～アンケート復刻版",
-        "stages": [
-            {
-                "en": "【High Difficulty】Like a Pheasant When the Plains are Burning, Like a Tyrannosaurus on a Cold Night",
-                "jp": "【高難易度】焼け野の雉夜のティラノサウルス"
-            }
-        ]
-    },
-    {
-        "en": "Witch on the Holy Night Collab",
-        "jp": "魔法使いの夜コラボ",
-        "stages": [
-            {
-                "en": "【High Difficulty】Extra Magic Number!",
-                "jp": "【高難易度】Extra Magic Number ! "
-            },
-            {
-                "en": "【Super High Difficulty】Only One/Number One・Shiny Star",
-                "jp": "【超高難易度】オンリーワン／ナンバーワン・シャイニースター"
-            }
-        ]
-    },
-    {
-        "en": "CBC 2024",
-        "jp": "CBC 2024",
-        "stages": [
-            {
-                "en": "【High Difficulty】The Curtain Call and Standing Ovation",
-                "jp": "【高難易度】大喝采のカーテンコール"
-            }
-        ]
-    },
-    {
-        "en": "Valentine 2024",
-        "jp": "バレンタイン2024",
-        "stages": [
-            {
-                "en": "【High Difficulty】Girl Guided by the Constellations",
-                "jp": "【高難易度】星座に導かれし乙女"
             }
         ]
     }
